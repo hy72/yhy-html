@@ -20,6 +20,11 @@ img {
 }
 
 
+
+.rel {position:relative;}
+.abs {position:absolute;}
+.fix {position:fixed;}
+
 /* float, Clearfix */
 .clear:after, .clearfix:after {
 	clear: both;
@@ -372,6 +377,7 @@ img {
 .bb-white {border-bottom: 1px solid #eee}
 
 .b-none {border: none;}
+
 
 
 /* 버튼세트 */

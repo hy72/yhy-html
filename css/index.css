@@ -1,14 +1,11 @@
-/* Common */
+.box, .box2{width: 200px; height: 200px; border: 10px solid black;}
 
+#box4{position: relative; left: 0; top: 0;}
 
-/* Header */
+#box5{background-color:rgb(127, 255, 212);} /* rgb(127, 255, 212) , #245f8f */
 
-
-/* Main */
-
-
-/* Footer */
-
+#box6{background-color: aquamarine;}
+#box6.darkBlue{background-color: darkcyan;}
 
 /* Responsive */
 @media screen and (max-width: 992px) {
