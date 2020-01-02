@@ -94,4 +94,25 @@ box-sizing: border-box; /* (항상 이거로 써야함) 테두리와 패딩을 �
 	/* 실제 width: 200px; 계산이 쉽다. - 내용이 적용되는 영역: 140px; */
 	width: 200px; padding: 20px; border: 10px solid red;
 }
+
+/* Position 정리 */
+/* position은 absolute, relative, fixed, sticky 4가지 */
+/* position 모델의 위치는 left, top, right, bottom이 있다. */
+.box {
+	position: fixed;
+	/* fixed의 위치값의 기준점은 Browser이다. */
+}
+/* position: relative는 내 안에 있는 position모델의 기준점이 되어준다. */
+
+/* FLEX 정리 */
+justify-content (가로정렬)
+- flex-start(기본:왼쪽정렬), 
+- flex-end(오른쪽정렬), 
+- 균등분할3형제- space-between, space-evenly, space-around
+
+align-items (세로정렬)
+- stretch(기본:늘리기), 
+- flex-start(상단정렬), 
+- flex-end(하단정렬),
+- center(가운데정렬) 
 ~~~
